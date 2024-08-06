@@ -2,4 +2,4 @@ server:
  port: 8084
 spring:
  server:
-  name: admin-dev-server-1
+  name: admin-dev-server-3
