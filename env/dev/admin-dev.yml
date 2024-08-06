@@ -1,0 +1,5 @@
+server:
+ port: 8088
+spring:
+ server:
+  name: admin-dev-server-80
