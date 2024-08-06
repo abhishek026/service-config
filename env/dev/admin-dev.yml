@@ -1,5 +1,5 @@
 server:
- port: 8088
+ port: 8081
 spring:
  server:
-  name: admin-dev-server-80
+  name: admin-dev-server-81
