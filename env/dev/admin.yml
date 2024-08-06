@@ -1,2 +1,5 @@
 server:
  port: 8084
+spring:
+ server:
+  name: admin-dev-server
