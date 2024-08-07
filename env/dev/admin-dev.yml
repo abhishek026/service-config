@@ -1,5 +1,11 @@
-server:
- port: 8081
 spring:
- server:
-  name: admin-dev-server-81
+ datasource:
+  url: jdbc:mysql://proctur-testbed.cfr5g7gon3pi.ap-southeast-1.rds.amazonaws.com:3306/procexamsit?UseUnicode=true&characterEncoding=utf8
+  username: procturtest
+  password: procims321
+ jpa:
+  database-platform: org.hibernate.dialect.MySQL8Dialect
+  show-sql: true
+  properties:
+   hibernate:
+    format_sql: true
